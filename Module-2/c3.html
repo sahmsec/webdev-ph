@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <link rel="icon" href="/Images/skull-icon-25.png" type="image/png">
+
+    <style>
+
+        body {
+            color: rgb(41, 9, 9);
+            font-family: Arial, sans-serif;
+            background-color: #cef5ff;
+            height: 100vh;
+            margin:0
+        }
+        ul{
+            color: brown;
+            background-color: azure;
+            font-size: 15px;
+            width: 500px;
+        }
+        label {
+            font-weight: bold;
+            background-color: steelblue;
+            margin: 10px;
+            padding: 7px;
+            border-radius: 5px;
+        }
+
+        input[type="text"], input[type="password"] {
+            padding: 7px;
+            margin: 5px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            font-size: 14px;
+            width: 20%;
+            background-color:rgb(200, 237, 255);
+        }
+
+
+        #exception {
+            color: white;
+            background-color: rgb(238, 210, 210);
+            font-weight: lighter;
+            text-align:justify;
+            color:black;
+
+        }
+
+        #div-change {
+            background-color: rgb(41, 81, 94);
+            width:540px;
+            padding: 10px;
+        }
+
+
+
+        #submit-form {
+            background-color: rgb(255, 255, 255);
+            padding: 15px;
+            width: 45%;
+
+        }
+        
+        .click {
+            background-color: deepskyblue;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 9px;
+            font-size: 14px;
+            border:none;
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Below example will be about inline CSS</h1>
+
+    <ul>
+        <li>This is an example of inline CSS</li>
+        <li>Inline CSS is used to apply a unique style to a single HTML element</li>
+        <li>To use inline CSS, add the style attribute to the relevant element</li>
+        <li>The style attribute can contain any CSS property</li>
+    </ul>
+
+<div id="div-change">
+        <ul id="exception">
+        <li>This is an example of inline CSS</li>
+        <li>Inline CSS is used to apply a unique style to a single HTML element</li>
+        <li>To use inline CSS, add the style attribute to the relevant element</li>
+        <li>The style attribute can contain any CSS property</li>
+    </ul>
+</div>
+<br>
+
+<a href="/Images/home.webp" download class="click">Download</a>
+<br><br>
+<form id="submit-form">
+    <label for="username">Username:</label>
+    <input type="text" id="username" placeholder="Enter username">
+    <label for="password">Password:</label>
+    <input type="password" name="pass" id="password"   placeholder="Enter password">
+    <input type="submit" value="Login" class="click">
+</form>
+
+    
+</body>
+</html>
