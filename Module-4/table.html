@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 15px 30px;
+            text-align: center;
+        }
+        tfoot{
+            text-align: left;
+        }
+    </style>
+
+</head>
+<body>
+    
+<main>
+    <section>
+        <table>
+            <caption>People information</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Occupation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sakib</td>
+                    <td>20</td>
+                    <td>student</td>
+                </tr>
+                <tr>
+                    <td>Sadhin</td>
+                    <td>27</td>
+                    <td>Farmer</td>
+                </tr>
+                <tr>
+                    <td>Ahmed</td>
+                    <td>29</td>
+                    <td>student</td>
+                </tr>
+
+            </tbody>
+            <tfoot >
+                <td colspan="4" style="text-align: left;">foot</td>
+            </tfoot>
+        </table>
+    </section>
+</main>
+</body>
+</html>
