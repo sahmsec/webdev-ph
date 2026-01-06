@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.font-open-sans{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
-.btn{
+.btn {
     font-size: 20px;
     color: white;
     padding: 18px 35px 19.3px 36px;
@@ -22,7 +22,7 @@
 
 
 
-header{
+header {
     background-color: #FFF8F3;
     padding-top: 50px;
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
@@ -30,7 +30,7 @@ header{
     background-position: top left, bottom right;
 }
 
-nav{    
+nav {
     width: 71.25%;
     max-width: 1140px;
     margin: 0px auto;
@@ -41,77 +41,80 @@ nav{
 
 }
 
-.logo h2{
+.logo h2 {
     font-size: 45px;
-    font-weight: 900px;  
+    font-weight: 900px;
 }
 
-.colour-orange{
+.colour-orange {
     color: #FD6E0A;
 }
 
-nav .menu{
+nav .menu {
     display: flex;
     list-style: none;
     gap: 51px;
     align-items: center;
 }
 
-nav .menu a{
+nav .menu a {
     color: #474747;
     font-size: 20px;
     text-decoration: none;
 
 }
 
-#banner{
+#banner {
     /* border: 1px solid red; */
     margin-top: 46px;
     margin-left: 230px;
     margin-bottom: 0px;
     margin-right: 38px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-#banner .banner-content{
+
+#banner .banner-content {
     max-width: 585px;
 }
 
-#banner .banner-content h2{
+#banner .banner-content h2 {
     font-size: 45px;
     color: #474747;
     font-weight: 600;
     margin-bottom: 5px;
 
 }
-#banner .banner-content h1{
+
+#banner .banner-content h1 {
     font-size: 85px;
     font-weight: bold;
     color: #181818;
     margin-bottom: 20px;
 }
 
-#banner .banner-content p{
+#banner .banner-content p {
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
 }
 
-#banner .banner-image img{
+#banner .banner-image img {
     max-width: 584px;
     vertical-align: middle;
 
 
 }
 
-#about{
+#about {
     padding-top: 130px;
     /* border: 1px solid red; */
 }
-#about .about-container{
-    border: 1px solid red;
+
+#about .about-container {
+    /* border: 1px solid red; */
     width: 71.25%;
     max-width: 1140px;
     margin: 0 auto;
@@ -121,42 +124,92 @@ nav .menu a{
 
 }
 
-.section-heading{
-    border: 1px solid red;
+.section-heading {
+    /* border: 1px solid red; */
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
- .section-heading h2{
+
+.section-heading h2 {
     font-size: 35px;
     margin-bottom: 30px;
- }
+}
 
- .section-heading p{
+.section-heading p {
     font-size: 18px;
     margin-bottom: 30px;
     color: #757575;
     line-height: 30px;
- }
+}
 
- #about .about-container .about-info{
+#about .about-container .about-info {
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 
- }
- .about-info .info-card p{
+}
+
+.about-info .info-card p {
     /* border: 1px solid red; */
     font-size: 20;
     color: #757575;
     line-height: 30px;
 
- }
+}
 
- .about-info .info-card h4{
+.about-info .info-card h4 {
     font-size: 20;
     line-height: 30px;
-    color:#474747;
+    color: #474747;
     font-weight: bold;
-    
- }
+
+}
+
+
+#skills {
+    /* border: 1px solid red; */
+    padding-top: 120px;
+
+}
+
+#skills .skills-container {
+    /* border: 1px solid red; */
+    width: 71.25%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.skills-container .skill-box {
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 24px;
+}
+
+.skills-container .skill-card {
+    /* border: 1px solid red; */
+    max-width: 267px;
+    border-radius: 5px;
+    padding: 30px 33px 30px 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 50px 0 #00000010;
+    /* line-height: ; */
+}
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+
+.skill-card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
