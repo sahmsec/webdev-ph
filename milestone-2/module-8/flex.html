@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive flex layout</title>
+    <style>
+        .box {
+            background-color: teal;
+            padding: 20px;
+            color: white;
+            border-radius: 10px;
+            ;
+        }
+
+        .container {
+            display: flex;
+            gap: 50px;
+        }
+
+        .items {
+            width: 100px;
+            background-color: coral;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        .box-container {
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 576px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .box {
+                background-color: yellowgreen;
+
+            }
+
+            .items{
+                width: 100%;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- .box>h1{box-$}+p{lorem} -->
+        <div class="box">
+            <h1>box-1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem repellat consequatur officiis quasi
+                est qui deleniti neque eaque ad quod laborum aperiam odit voluptatibus, temporibus architecto eius vero
+                adipisci, commodi minima, tempora distinctio omnis perferendis. Ad mollitia nisi sunt accusantium
+                voluptatum maiores libero odit molestias ullam sapiente eum, repudiandae perferendis!</p>
+        </div>
+        <div class="box">
+            <h1>box-2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis minima dolores quasi. Quibusdam nostrum
+                ducimus sapiente impedit eum? Eos explicabo aut cupiditate ad officia rerum temporibus sequi quibusdam
+                optio vero dolorem aspernatur quidem eius ducimus deserunt dolor debitis inventore, incidunt quam
+                sapiente architecto iusto consequatur. Rerum sed adipisci laboriosam alias!</p>
+        </div>
+        <div class="box">
+            <h1>box-3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis deserunt excepturi necessitatibus.
+                Repudiandae corrupti, modi expedita magni, officiis molestiae dolorum id tempore iure animi porro!
+                Pariatur reiciendis blanditiis praesentium vel, architecto dolore corrupti earum consequatur atque
+                quisquam rem fugiat maxime aut aspernatur similique voluptatem quod vero at aliquam totam. Labore.</p>
+        </div>
+
+    </div>
+
+    <div class="box-container">
+        <div class="items">item 1</div>
+        <div class="items">item 2</div>
+        <div class="items">item 3</div>
+        <div class="items">item 4</div>
+        <div class="items">item 5</div>
+        <div class="items">item 6</div>
+        <div class="items">item 7</div>
+        <div class="items">item 8</div>
+        <div class="items">item 9</div>
+        <div class="items">item 10</div>
+        <div class="items">item 11</div>
+        <div class="items">item 12</div>
+        <div class="items">item 13</div>
+        <div class="items">item 14</div>
+        <div class="items">item 15</div>
+        <div class="items">item 16</div>
+        <div class="items">item 17</div>
+        <div class="items">item 18</div>
+        <div class="items">item 19</div>
+        <div class="items">item 20</div>
+    </div>
+
+</body>
+
+</html>
