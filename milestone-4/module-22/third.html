@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        #food-color li{
+            color: olive;
+        }
+        #food-title{
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+     <header>
+        <h1>This is my header</h1>
+    </header>
+
+    <h1>Tour of Dom</h1>
+    <ul>
+        <li>Sakib</li>
+        <li>Ahmed</li>
+        <li>Sadhin</li>
+    </ul>
+
+    <section id="food-color">
+        <h1 id="food-title">Foods I love</h1>
+        <li>beef</li>
+        <li>fish</li>
+        <li>mutton</li>
+        <li class="foreign">burger</li>
+        <li class="foreign">pizza</li>
+        <li class="foreign">kebab</li>
+
+    </section>
+
+    <script>
+        const foodTitleH1 = document.getElementById('food-title');
+        console.log(foodTitleH1.innerText);
+
+        foodTitleH1.innerText = 'Foods I love to eat';
+
+        const foreignFoods = document.getElementsByClassName('foreign');
+        for(const food of foreignFoods){
+            console.log(food.innerText);
+            console.log(food);
+            food.style.color = 'gold';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.my-section {
+  background-color: lightblue;
+  padding: 20px;
+  color: darkgreen;
+  border-radius: 10px;
+  max-width: 50%;
+  text-align: center;
+  margin: 20px auto;
+  border: 2px solid darkgreen;
+}
+
+.my-section li {
+  list-style: none;
+}

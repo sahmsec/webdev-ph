@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <h1>Tour of Dom</h1>
+
+    <section id="puran-dhaka">
+        <h1>puran dhaka</h1>
+        <p>Lorem ipsum dolor sit, <span>Span puran dhaka er moddhe </span> Corrupti quo quos esse doloremque provident
+            nostrum unde, aspernatur sapiente atque consectetur omnis eius, <span>What is this</span>, laudantium fugiat
+            a reiciendis.</p>
+    </section>
+
+    <p>Lorem ipsum dolor sit, <span>puran dhakar baire </span> Corrupti quo quos esse doloremque provident nostrum unde,
+        aspernatur sapiente atque consectetur omnis eius, <span>etao baire</span>, laudantium fugiat a reiciendis.</p>
+
+    <section id="food-color">
+        <h1 id="food-title">Foods I love</h1>
+        <li>beef</li>
+        <li>fish</li>
+        <li><span>mutton</span></li>
+        <li class="foreign">burger</li>
+        <li class="foreign">pizza</li>
+        <li class="foreign">kebab</li>
+
+    </section>
+
+    <script>
+
+        //get span data from a specific id
+        const specificSpan = document.querySelectorAll('#puran-dhaka p span');
+        console.log(specificSpan);
+        for (const span of specificSpan) {
+            console.log(span.innerText);
+        }
+
+    </script>
+</body>
+
+</html>
