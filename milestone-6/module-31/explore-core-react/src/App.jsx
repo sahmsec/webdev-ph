@@ -1,11 +1,12 @@
 import './App.css'
+import ToDo from './Todo'
 
 function App() {
 
   return (
     <>
       <h1>React Core Concepts</h1>
-      <Person></Person>
+      {/* <Person></Person>
       <Sports></Sports>
       <Student></Student>
       <Developer name="Sakib" tech="Next.js"></Developer>
@@ -14,7 +15,10 @@ function App() {
       <Player name="Tamim" runs="5000"></Player>
       <Player name="Shakib" runs="6000"></Player>
       <Salami occassion="Roja Eid" amount="4000"></Salami>
-      <Salami occassion="Dropout" amount="10000"></Salami>
+      <Salami occassion="Dropout" amount="10000"></Salami> */}
+
+      <ToDo task="Learn React" isDone="true"></ToDo>
+      <ToDo task="Taking shower" isDone="false"></ToDo>
     </>
   )
 }
