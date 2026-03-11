@@ -11,7 +11,21 @@ function App() {
       <Developer name="Sakib" tech="Next.js"></Developer>
       <Developer name="Ahmed" tech="AWS"></Developer>
       <Developer name="Sadhin" tech="Vue.js"></Developer>
+      <Player name="Tamim" runs="5000"></Player>
+      <Player name="Shakib" runs="6000"></Player>
+      <Salami occassion="Roja Eid" amount="4000"></Salami>
+      <Salami occassion="Dropout" amount="10000"></Salami>
     </>
+  )
+}
+
+function Salami({occassion, amount}) {
+  
+  return (
+    <div className="student">
+      <h3>Salami for: {occassion}</h3>
+      <h3>Amount: {amount}</h3>
+    </div>
   )
 }
 
@@ -44,14 +58,14 @@ function Sports() {
 function fruits() {
 
   return (
-   <div>
-    <h3>Foler naam:</h3>
+    <div>
+      <h3>Foler naam:</h3>
       <ul>
         <li>Kola</li>
         <li>Komola</li>
         <li>Bish</li>
       </ul>
-   </div>
+    </div>
   )
 }
 
@@ -66,7 +80,7 @@ function Student() {
 }
 
 function Developer(props) {
-  
+
   return (
     <div style={{
       // full inline styling uses double curly braces
@@ -76,6 +90,15 @@ function Developer(props) {
     }}>
       <h3>Developer: {props.name} </h3>
       <p>Technology: {props.tech} </p>
+    </div>
+  )
+}
+
+function Player({name, runs}) {
+  return (
+    <div className='student'>
+      <h3>Name: {name}</h3>
+      <h3>Runs: {runs}</h3>
     </div>
   )
 }
