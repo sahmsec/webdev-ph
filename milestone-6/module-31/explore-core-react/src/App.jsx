@@ -1,9 +1,34 @@
-import './App.css'
-import ToDo from './Todo'
+import './App.css';
+import ToDo, { Important } from './Todo';
+import HungryNaki from './Hungry';
+import Actor from './Actor';
+import Singer from './Singer';
 
 function App() {
 
+  const actors = ['Tom Cruise', 'Shah Rukh Khan', 'Vin Diesel'];
+
+  const singers = [
+    {
+      id: 1,
+      name: "Tahsan",
+      Age: "45",
+    },
+    {
+      id: 3,
+      name: "Dr. Mahfuz",
+      Age: "68",
+    },
+    {
+      id: 2,
+      name: "Bijoy",
+      Age: "55",
+    }
+  ]
+
   return (
+
+
     <>
       <h1>React Core Concepts</h1>
       {/* <Person></Person>
@@ -15,16 +40,28 @@ function App() {
       <Player name="Tamim" runs="5000"></Player>
       <Player name="Shakib" runs="6000"></Player>
       <Salami occassion="Roja Eid" amount="4000"></Salami>
-      <Salami occassion="Dropout" amount="10000"></Salami> */}
+      <Salami occassion="Dropout" amount="10000"></Salami>
 
       <ToDo task="Learn React" isDone="true"></ToDo>
       <ToDo task="Taking shower" isDone="false"></ToDo>
+      <HungryNaki isHungry="true" food="Kebab & Luchi" restaurant="Kebab Express"></HungryNaki>
+      <HungryNaki isHungry="false" food="Choco hot coffee" restaurant="Coffeelime"></HungryNaki>
+      <Important name="Sakib Ahmed" isdone="true" time="12:11"></Important> */}
+
+      {actors.map(actor => <Actor actorName={actor}></Actor>)}
+
+      {singers.map(singer => <Singer key={singer.id} singer={singer} ></Singer>)}
+
     </>
   )
 }
 
-function Salami({occassion, amount}) {
-  
+
+
+
+
+function Salami({ occassion, amount }) {
+
   return (
     <div className="student">
       <h3>Salami for: {occassion}</h3>
@@ -98,7 +135,7 @@ function Developer(props) {
   )
 }
 
-function Player({name, runs}) {
+function Player({ name, runs }) {
   return (
     <div className='student'>
       <h3>Name: {name}</h3>
