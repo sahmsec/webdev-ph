@@ -4,16 +4,26 @@ import Counter from './Counter';
 import Users from './Users';
 import { Suspense } from 'react';
 import Friends from './Friends';
+import Posts from './Posts'
 
 const fetchUsers = fetch("https://jsonplaceholder.typicode.com/users")
   .then(res => res.json())
 
-const fetchFriends = async() => {
+const fetchFriends = async () => {
   const res = await fetch('https://jsonplaceholder.typicode.com/users');
   return res.json();
 }
 
+const fetchPosts = async () => {
+  const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+  return res.json();
+}
+
+
+
 function App() {
+
+  const postPromise = fetchPosts();
 
   const friendsPromise = fetchFriends();
 
@@ -33,12 +43,16 @@ function App() {
     <>
       <h3>React Core Part 2</h3>
 
+      <Suspense fallback={<h3>Loading posts ...</h3>}>
+        <Posts postPromise={postPromise}></Posts>
+      </Suspense>
+
       <Suspense fallback={<h3>Loading...</h3>}>
         <Friends friendsPromise={friendsPromise}></Friends>
       </Suspense>
 
       <Suspense fallback={<h3>Loading...</h3>}>
-        <Users  fetchUsers={fetchUsers}></Users>
+        <Users fetchUsers={fetchUsers}></Users>
       </Suspense>
 
       <Batsman></Batsman>
