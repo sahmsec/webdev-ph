@@ -1,0 +1,11 @@
+.root-main{
+    display: flex;
+    gap: 30px;
+}
+
+nav a.active{
+    padding: 3px;
+    background-color: rgb(242, 242, 230, .5);
+    border-radius: 10px;
+    /* color: red; */
+}
