@@ -1,0 +1,117 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Mouse",
+      "brand": "LogiTech",
+      "category": "Electronics",
+      "price": 25.99,
+      "stock": 50,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/150",
+      "description": "Ergonomic wireless mouse with USB receiver."
+    },
+    {
+      "id": 2,
+      "name": "Mechanical Keyboard",
+      "brand": "RedGear",
+      "category": "Electronics",
+      "price": 59.99,
+      "stock": 30,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/150",
+      "description": "RGB backlit mechanical keyboard with blue switches."
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "brand": "Nike",
+      "category": "Fashion",
+      "price": 89.99,
+      "stock": 20,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/150",
+      "description": "Lightweight running shoes for daily training."
+    },
+    {
+      "id": 4,
+      "name": "Smart Watch",
+      "brand": "Samsung",
+      "category": "Gadgets",
+      "price": 149.99,
+      "stock": 15,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/150",
+      "description": "Fitness tracking smartwatch with heart-rate monitor."
+    },
+    {
+      "id": 5,
+      "name": "Backpack",
+      "brand": "WildCraft",
+      "category": "Accessories",
+      "price": 39.99,
+      "stock": 40,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/150",
+      "description": "Durable travel backpack with multiple compartments."
+    }
+  ],
+
+  "books": [
+    {
+      "id": 1,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self Help",
+      "price": 14.99,
+      "stock": 25,
+      "rating": 4.8,
+      "image": "https://via.placeholder.com/150",
+      "description": "A practical guide to building good habits and breaking bad ones."
+    },
+    {
+      "id": 2,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Fiction",
+      "price": 11.50,
+      "stock": 18,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/150",
+      "description": "A journey of self-discovery and following your dreams."
+    },
+    {
+      "id": 3,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "genre": "Programming",
+      "price": 29.99,
+      "stock": 12,
+      "rating": 4.9,
+      "image": "https://via.placeholder.com/150",
+      "description": "A handbook of agile software craftsmanship."
+    },
+    {
+      "id": 4,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "genre": "Finance",
+      "price": 13.99,
+      "stock": 20,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/150",
+      "description": "Lessons about money, investing, and financial independence."
+    },
+    {
+      "id": 5,
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "genre": "Productivity",
+      "price": 16.75,
+      "stock": 15,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/150",
+      "description": "Rules for focused success in a distracted world."
+    }
+  ]
+}

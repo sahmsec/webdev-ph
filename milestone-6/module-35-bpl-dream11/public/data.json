@@ -1,0 +1,62 @@
+[
+    {
+        "playerName": "Virat Kohli",
+        "playerType": "Batsman",
+        "country": "India",
+        "batStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm medium",
+        "rating": 95,
+        "price": 1500000,
+        "playerImage": "https://i.ibb.co.com/LX5zfwxy/348106.webp"
+    },
+    {
+        "playerName": "Joe Root",
+        "playerType": "Batsman",
+        "country": "England",
+        "batStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm off break",
+        "rating": 92,
+        "price": 1400000,
+        "playerImage": "https://i.ibb.co.com/1GM5pnbY/joe-root-portrait-31krp0eo0xyw2om5.jpg"
+    },
+    {
+        "playerName": "Rohit Sharma",
+        "playerType": "Batsman",
+        "country": "India",
+        "batStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm off break",
+        "rating": 93,
+        "price": 1450000,
+        "playerImage": "https://i.ibb.co.com/Swg6L1w9/wp7454010.jpg"
+    },
+    {
+        "playerName": "Babar Azam",
+        "playerType": "Batsman",
+        "country": "Pakistan",
+        "batStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm off break",
+        "rating": 94,
+        "price": 1480000,
+        "playerImage": "https://i.ibb.co.com/zM3rDq0/kamran-akmal-had-said-that-babar-azam-and-mohammad-rizwan-should-be-only-selected-for-test-cricket-2.avif"
+    },
+    {
+        "playerName": "Ben Stokes",
+        "playerType": "All-rounder",
+        "country": "England",
+        "batStyle": "Left-hand bat",
+        "bowlingStyle": "Right-arm fast-medium",
+        "rating": 93,
+        "price": 1450000,
+        "playerImage": "https://i.ibb.co.com/HRyG4VH/benstokes.jpg"
+    },
+    {
+        "playerName": "Shakib Al Hasan",
+        "playerType": "All-rounder",
+        "country": "Bangladesh",
+        "batStyle": "Left-hand bat",
+        "bowlingStyle": "Left-arm orthodox",
+        "rating": 90,
+        "price": 1300000,
+        "playerImage": "https://i.ibb.co.com/ZRJBKjc0/shakib.avif"
+    }
+]

@@ -31,7 +31,7 @@ function App() {
 
     <>
       <h1>React Core Concepts</h1>
-      {/* <Person></Person>
+      <Person></Person>
       <Sports></Sports>
       <Student></Student>
       <Developer name="Sakib" tech="Next.js"></Developer>
@@ -46,7 +46,7 @@ function App() {
       <ToDo task="Taking shower" isDone="false"></ToDo>
       <HungryNaki isHungry="true" food="Kebab & Luchi" restaurant="Kebab Express"></HungryNaki>
       <HungryNaki isHungry="false" food="Choco hot coffee" restaurant="Coffeelime"></HungryNaki>
-      <Important name="Sakib Ahmed" isdone="true" time="12:11"></Important> */}
+      <Important name="Sakib Ahmed" isdone="true" time="12:11"></Important>
 
       {actors.map(actor => <Actor actorName={actor}></Actor>)}
 
